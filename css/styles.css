@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+    background-color: black;
+    text-align: center;
+}
+
+.header{
+    background-color: blue;
+}
+.color-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.color-box{
+    width:250px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
